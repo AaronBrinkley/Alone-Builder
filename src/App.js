@@ -25,7 +25,7 @@ export default function CatchAllRoute() {
       setNotFound(!content);
     }
     fetchContent();
-  }, [window.location.pathname]);
+  }, []);
   
   
 
