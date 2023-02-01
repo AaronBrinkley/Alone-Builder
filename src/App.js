@@ -17,7 +17,7 @@ export default function CatchAllRoute() {
     async function fetchContent() {
       const content = await builder
         .get("page", {
-          url: window.location.pathname
+          
         })
         .promise();
 
