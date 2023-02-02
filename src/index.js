@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MyComponent from './App.js';
+import CatchAllRoute from './App.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyComponent />
+    <CatchAllRoute />
   </React.StrictMode>,
   document.getElementById('root')
 );
