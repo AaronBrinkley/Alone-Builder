@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://aaronbrinkley.github.io/Alone-Builder/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
