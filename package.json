@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://63dbf6b79035f416e7bc548b--graceful-cocada-526791.netlify.app/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
