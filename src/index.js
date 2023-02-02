@@ -3,13 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import CatchAllRoute from './App.js';
 import reportWebVitals from './reportWebVitals';
-import BrowserRouter from 'react-router-dom/BrowserRouter'
-
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <React.StrictMode>
     <CatchAllRoute />
-    </BrowserRouter>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
